@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<div class="playing-field">
+		 <div class="container board"> 
+			<div class="row">
+				<div class="col-xs-4 box" id="box1"></div>
+				<div class="col-xs-4 box" id="box2"></div>
+				<div class="col-xs-4 box" id="box3"></div>
+
+			</div>
+			<div class="row">
+				<div class="col-xs-4 box"  id="box4"></div>
+				<div class="col-xs-4 box"  id="box5"></div>
+				<div class="col-xs-4 box"  id="box6"></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 box"  id="box7"></div>
+				<div class="col-xs-4 box"  id="box8"> </div>
+				<div class="col-xs-4 box"  id="box9"></div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			<button>Start</button>
+			<div class="stats">
+				<p id="player-one-name">Player 1</p>
+				<p id="player-two-name">Player 2</p>
+			</div>
+			<div id="result-box"> Results </div>
+				<p id="score-box"></p>
+		</div>
+
+	</div>
+
+	
+
+	<script src="app.js"></script>
+</body>
+</html>

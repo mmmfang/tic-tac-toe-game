@@ -1,0 +1,50 @@
+* {
+	font-size: 36px;
+	font-family: 'Bangers', cursive;
+	background-color: red;
+}
+
+h1 {
+	font-size: 48px;
+	text-shadow: 1px 1px white;
+	margin-left: 140px;
+}
+
+.playing-field {
+	width:800px;
+	height: 550px;
+}
+
+.board {
+	width: 520px;
+	height: 550px;
+/*	border: 1px solid green;*/
+	display:inline-block;
+}
+
+.row {
+	width:520px;
+	height:150px;
+}
+
+.col-xs-4 {
+	width:150px;
+	height:150px;
+	border: 1px solid black;
+	display:inline-block;
+	float:left;
+	text-align: center;
+	font-size: 72px;
+}
+
+.sidebar {
+	width: 275px;
+	float: right;
+	display:inline-block;
+	border: 1px solid black;
+}
+
+button {
+	background-color: white;
+}
+
