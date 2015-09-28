@@ -17,6 +17,6 @@ I tried wrapping it in one game object but it is easier for me to separate out t
 Most proud of my refactoring! Which allowed me to eliminate hard coding of each square, with an event listener on each square. Instead I found jQuery methods .each() and .eq() to loop through and obtain the index values I needed, deleting over 200 lines of code.
 
 Link to Game as hosted on Github pages:
-
+http://mmmfang.github.io/tic-tac-toe-game/ 
 
 

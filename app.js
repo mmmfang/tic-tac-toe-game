@@ -92,7 +92,7 @@ function determineWinner() {
 	{console.log("Player 2 is the winner");
 		playerTwoWinCount +=1;
 		alert(playerTwoName + " is the winner!")
-	} else if {console.log("Currently it is tied")}
+	} 
 	
 	reportResults();
 }; // determineWinner()
